@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Age Calculatoe</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+   
+    <main class="container">
+        <div class="input">
+            <label for="birthdate">Calculate Your Age: </label>
+            <input type="datetime-local" id="birthdate" />
+        </div><br>
+        <ui>
+            <li><span id="years"></span>Years</li>
+            <li><span id="months"></span>Months</li>
+            <li><span id="days"></span>Days</li>
+            <li><span id="hours"></span>Hours</li>
+            <li><span id="minutes"></span>Minutes</li>
+            <li><span id="seconds"></span>Seconds</li>
+        </ui>
+        <div class="btns">
+            <button onclick="calculate()">Calculate</button>
+            <button onclick="Reset()">Reset</button>
+        </div>
+    </main>
+</body>
+</html>
